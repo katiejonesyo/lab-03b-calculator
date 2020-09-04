@@ -18,7 +18,7 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: #4ee9e1;
+    background-color: #87ebe6;
 }
 
 main {
@@ -82,7 +82,7 @@ button {
     border-radius: 10%;
     transition: all .5s ease-in-out;
     margin: 10px;
-    
+
 }
 
 button:hover {
