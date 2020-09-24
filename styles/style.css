@@ -1,8 +1,8 @@
 body {
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
-    --color1: rgb(226, 138, 197);
-    --color2: rgb(217, 167, 233);
-    --color3: rgb(239, 173, 241);
+    --color1: rgb(40, 39, 43);
+    --color2: rgb(10, 10, 10);
+    --color3: rgb(0, 0, 0);
     --color4: hsla(187, 41%, 94%, 1);
     --color5: hsla(170, 28%, 95%, 1);
 
@@ -18,7 +18,7 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: #87ebe6;
+    background-color: #6567db;
 }
 
 main {
@@ -46,7 +46,7 @@ section {
 header {
     display: flex;
     justify-content: flex-end;
-    background-color:rgb(255, 192, 247);
+    background-color:rgb(255, 255, 255);
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
