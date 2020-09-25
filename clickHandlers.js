@@ -1,22 +1,20 @@
-import { add, subtract } from './mathUtils.js';
+import { addNumbers, subtractNumbers } from './mathUtils.js';
 
 const sumInput1 = document.getElementById('sum-input-1')
 const sumInput2 = document.getElementById('sum-input-2')
-const sumButton = document.getElementById('sum-button')
 const sumSpan = document.getElementById('sum-span')
 
-sumButton.addEventListener('click',() => {
- 
+export function handleAddClick() {
     const value1 = sumInput1.valueAsNumber;
     const value2 = sumInput2.valueAsNumber;
 
 
-    const sum = value1 + value2;
+    const sum = addNumbers(value1, value2);
 
  
-    sumSpan.textContent = sum;
-});
-
+    sumSpan.textContent = sum; 
+}
+ 
 
 
 const differenceInput1 = document.getElementById('difference-input-1')

@@ -1,7 +1,9 @@
 
-import { handleAddClick, handleSubtractClick } from './clickHandlers.js';
+import { handleAddClick } from './clickHandlers.js';
+const sumButton = document.getElementById('sum-button')
+//const subtractButton = document.getElementById('subtract-button');
 
-const subtractButton = document.getElementById('subtract-button');
-addButton.addEventListener('click', handleAddClick);
-subtractButton.addEventListener('click', handleSubtractClick);
+sumButton.addEventListener('click', handleAddClick);
+//subtractButton.addEventListener('click', handleSubtractClick);
 
+console.log('Jim')
