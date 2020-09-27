@@ -34,6 +34,7 @@ differenceButton.addEventListener('click',() => {
     differenceSpan.textContent = difference;
 });
 
+
 const productInput1 = document.getElementById('product-input-1')
 const productInput2 = document.getElementById('product-input-2')
 const productButton = document.getElementById('product-button')
